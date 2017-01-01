@@ -1,3 +1,58 @@
+body {
+	font-family: 'Open Sans';
+	margin: 0px;
+}
+
 nav {
-	
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	text-transform: lowercase;
+	color: white;
+	word-spacing: 15px;
+}
+
+.header {
+	background-image: url(../images/coffee.jpeg);
+	background-size: cover;
+	text-align:center;
+	width: 100%;
+	height: 525px;
+}
+
+#navigation {
+	padding: 30px;
+	border: 10px black;
+}
+
+#navigation a{
+	color: white;
+	font-size: 100%;
+	text-shadow: 3px 3px black;
+}
+
+#introduction {
+	color: white;
+	font-size: 300%;
+	text-shadow: 5px 5px black;
+	padding: 120px;
+	border: 10px black;
+}
+
+#about {
+	text-align: center;
+	padding: 10px;
+	color: white;
+	border: 3px white;
+	text-shadow: 3px 3px black;
+	border-style: solid;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.bio {
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	text-shadow: 3px 3px black;
 }
