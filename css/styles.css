@@ -1,12 +1,11 @@
 body {
-	font-family: 'Open Sans';
-	margin: 0px;
+	margin: 0;
 }
 
 nav {
 	text-align: center;
 	font-size: 150%;
-	font-weight: bold;
+	font-family: 'Open Sans';
 	text-transform: lowercase;
 	color: white;
 	word-spacing: 15px;
@@ -17,7 +16,8 @@ nav {
 	background-size: cover;
 	text-align:center;
 	width: 100%;
-	height: 525px;
+	height: 1000px;
+	font-family: 'Open Sans';
 }
 
 #navigation {
@@ -29,14 +29,34 @@ nav {
 	color: white;
 	font-size: 100%;
 	text-shadow: 3px 3px black;
+	font-family: 'Open Sans';
+}
+
+#navigation a:hover{
+	text-shadow: 5px 5px black;
+	font-weight: bold;
+	font-family: arial;
+	color: pink;
+}
+
+#navigation a:visited {
+	color:pink;
 }
 
 #introduction {
 	color: white;
 	font-size: 300%;
 	text-shadow: 5px 5px black;
-	padding: 120px;
-	border: 10px black;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#face {
+	text-align: center;
+	width: 150px;
+	height: auto;
+	border: 5px white solid;
+	border-radius: 50%;
 }
 
 #about {
@@ -50,9 +70,55 @@ nav {
 	margin-right: 200px;
 }
 
+.contact_links {
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	text-shadow: 3px 3px black;
+}
+
+.contact_links:hover {
+	font-family: 'Open Sans';
+	color:pink;
+}
+
+.white-text {
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	text-shadow: 3px 3px black;
+}
+
+#portfolio {
+	text-align:center;
+	color: white;
+	font-size: 300%;
+	text-shadow: 5px 5px black;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#contact {
+	text-align:center;
+	color: white;
+	font-size: 300%;
+	text-shadow: 5px 5px black;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+footer {
+	text-align:right;
+	color:white;
+	padding: 5%;}
+
 .bio {
 	text-align: center;
 	color: white;
 	font-size: 150%;
 	text-shadow: 3px 3px black;
+}
+
+@media screen and (max-width: 500px) {
+
 }
